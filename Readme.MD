@@ -8,3 +8,6 @@ python3 /directory/Dijkstra_run.py -start 6 6 -end 80 80
 ```
 You can put any start and end as your input in ther terminal in the above format.
 Results are included for the above command.
+
+### Note:
+Was not able to capture a avi file. Hence provided the images for the results.
