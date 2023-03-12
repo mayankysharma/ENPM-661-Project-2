@@ -127,10 +127,10 @@ def backtrack(Input, final_node, copy_map):
         copy_map[n[0]][n[1]] = (150, 100, 100)
         backtrack.append(np.uint8(copy_map.copy()))
         copy_map[n[0]][n[1]] = (0, 0, 0)
-    cv2.imshow("Frames",backtrack[-1])
-    print(type(backtrack))
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow("Frames",backtrack[-1])
+    # print(type(backtrack))
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     cv2.imwrite('Back_Track.png', backtrack[-1])
 
 def Dijkstra(coordinates):
