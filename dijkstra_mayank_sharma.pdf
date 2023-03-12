@@ -3,10 +3,9 @@ import time
 from queue import PriorityQueue
 import cv2
 import math
-#import imageio as ig
 import argparse
 
-
+#github link: https://github.com/mayankysharma/ENPM-661-Project-2
 class Proj_2:
     def __init__(self, Explored_Node=False, Cost=math.inf, Parent_ind=None):
         self.Explored_Node = Explored_Node
